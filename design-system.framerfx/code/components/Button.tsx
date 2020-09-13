@@ -2,9 +2,11 @@ import * as React from "react"
 import * as System from "@class101/ui"
 import { ControlType, PropertyControls, addPropertyControls } from "framer"
 import { withHOC } from "../core/withHOC"
+import { getButtonColorsToEnum } from "../core/ButtonColors"
+import { ButtonColor } from "@class101/ui"
 
 const InnerButton = props => {
-    return <System.Button {...props}></System.Button>
+    return <System.Button {...props} color={ButtonColor[props.color]}>{props.text}</System.Button>
 }
 
 export const Button = withHOC(InnerButton)
@@ -32,14 +34,10 @@ addPropertyControls(Button, {
     to: {
         title: "To",
         type: ControlType.String,
-    },
-    href: {
-        title: "Href",
-        type: ControlType.String,
         defaultValue: "https://framer.com",
     },
-    children: {
-        title: "Children",
+    text: {
+        title: "Text",
         type: ControlType.String,
     },
     disabled: {
@@ -55,5 +53,10 @@ addPropertyControls(Button, {
         title: "External",
         type: ControlType.Boolean,
         defaultValue: false,
+    },
+    color: {
+        title: "Color",
+        type: ControlType.Enum,
+        options: getButtonColorsToEnum(),
     },
 })
