@@ -11,12 +11,13 @@
 	},
 	"version": "1.0.0",
 	"dependencies": {
-		"@class101/ui": "^8.5.0",
-		"styled-components": "^4.2.0"
+		"@class101/ui": "9.0.0-rc29",
+		"styled-components": "5.2.0"
 	},
 	"name": "@framer/ik7jp3i1.class101ui",
-	"author": "",
+	"author": "(강희원) 오웬",
 	"framer": {
-		"displayName": "@class101/ui"
+		"displayName": "@class101/ui",
+		"id": "89b4ab0c-f216-467e-973a-090865f2ebbc"
 	}
 }
