@@ -9,7 +9,7 @@
 		"react": "^16.3.0",
 		"react-dom": "^16.3.0"
 	},
-	"version": "1.0.1",
+	"version": "1.6.1",
 	"dependencies": {
 		"@class101/ui": "9.0.0-rc29",
 		"styled-components": "5.2.0"
@@ -17,7 +17,6 @@
 	"name": "@framer/ik7jp3i1.class101ui",
 	"author": "(강희원) 오웬",
 	"framer": {
-		"displayName": "@class101/ui",
-		"id": "89b4ab0c-f216-467e-973a-090865f2ebbc"
+		"displayName": "@class101/ui"
 	}
 }
