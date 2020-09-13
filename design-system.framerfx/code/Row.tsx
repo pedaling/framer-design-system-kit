@@ -3,15 +3,15 @@ import * as System from "@class101/ui"
 import { ControlType, PropertyControls, addPropertyControls } from "framer"
 import { withHOC } from "./withHOC"
 
-const InnerInput = props => {
-    return <System.Input {...props}></System.Input>
+const InnerRow = props => {
+    return <System.Row {...props}></System.Row>
 }
 
-export const Input = withHOC(InnerInput)
+export const Row = withHOC(InnerRow)
 
-Input.defaultProps = {
+Row.defaultProps = {
     width: 150,
     height: 50,
 }
 
-addPropertyControls(Input, {})
+addPropertyControls(Row, {})

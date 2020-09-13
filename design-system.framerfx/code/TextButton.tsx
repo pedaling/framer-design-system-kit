@@ -3,23 +3,18 @@ import * as System from "@class101/ui"
 import { ControlType, PropertyControls, addPropertyControls } from "framer"
 import { withHOC } from "./withHOC"
 
-const InnerButton = props => {
-    return <System.Button {...props}></System.Button>
+const InnerTextButton = props => {
+    return <System.TextButton {...props}></System.TextButton>
 }
 
-export const Button = withHOC(InnerButton)
+export const TextButton = withHOC(InnerTextButton)
 
-Button.defaultProps = {
+TextButton.defaultProps = {
     width: 150,
     height: 50,
 }
 
-addPropertyControls(Button, {
-    fill: {
-        title: "Fill",
-        type: ControlType.Boolean,
-        defaultValue: false,
-    },
+addPropertyControls(TextButton, {
     type: {
         title: "Type",
         type: ControlType.String,

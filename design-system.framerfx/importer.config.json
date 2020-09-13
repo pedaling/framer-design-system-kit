@@ -1,0 +1,164 @@
+{
+    "mode": "typescript",
+    "packageName": "@class101/ui",
+    "rootFiles": [
+        "node_modules/@class101/ui/dist/index.d.ts"
+    ],
+    "additionalImports": [],
+    "out": "code/",
+    "components": {
+        "LinkBlock": {
+            "ignore": false
+        },
+        "Card": {
+            "ignore": false
+        },
+        "Badge": {
+            "ignore": false
+        },
+        "ButtonGroup": {
+            "ignore": false
+        },
+        "Carousel": {
+            "ignore": false
+        },
+        "Tag": {
+            "ignore": false
+        },
+        "Tabs": {
+            "ignore": false
+        },
+        "Navigation": {
+            "ignore": false
+        },
+        "Pagination": {
+            "ignore": false
+        },
+        "ProgressBar": {
+            "ignore": false
+        },
+        "ProgressState": {
+            "ignore": false
+        },
+        "Slide": {
+            "ignore": false
+        },
+        "Avatar": {
+            "ignore": false
+        },
+        "Comment": {
+            "ignore": false
+        },
+        "ControlGroup": {
+            "ignore": false
+        },
+        "FormGroup": {
+            "ignore": false
+        },
+        "RadioButtonGroup": {
+            "ignore": false
+        },
+        "Checkbox": {
+            "ignore": false
+        },
+        "InlineError": {
+            "ignore": false
+        },
+        "Input": {
+            "ignore": false
+        },
+        "NumericInput": {
+            "ignore": false
+        },
+        "Select": {
+            "ignore": false
+        },
+        "Switch": {
+            "ignore": false
+        },
+        "TagInput": {
+            "ignore": false
+        },
+        "Textarea": {
+            "ignore": false
+        },
+        "DatePicker": {
+            "ignore": false
+        },
+        "Col": {
+            "ignore": false
+        },
+        "Row": {
+            "ignore": false
+        },
+        "Grid": {
+            "ignore": false
+        },
+        "GridList": {
+            "ignore": false
+        },
+        "Section": {
+            "ignore": false
+        },
+        "Divider": {
+            "ignore": false
+        },
+        "Toast": {
+            "ignore": false
+        },
+        "Toaster": {
+            "ignore": false
+        },
+        "BottomSheet": {
+            "ignore": false
+        },
+        "SnackBar": {
+            "ignore": false
+        },
+        "ModalBottomSheet": {
+            "ignore": false
+        },
+        "Headline1": {
+            "ignore": false
+        },
+        "Headline2": {
+            "ignore": false
+        },
+        "Headline3": {
+            "ignore": false
+        },
+        "Subtitle1": {
+            "ignore": false
+        },
+        "Subtitle2": {
+            "ignore": false
+        },
+        "Body1": {
+            "ignore": false
+        },
+        "Body2": {
+            "ignore": false
+        },
+        "Caption1": {
+            "ignore": false
+        },
+        "Caption2": {
+            "ignore": false
+        },
+        "AnchorButton": {
+            "ignore": false
+        },
+        "Button": {
+            "ignore": false
+        },
+        "IconButton": {
+            "ignore": false
+        },
+        "TextButton": {
+            "ignore": false
+        },
+        "Callout": {
+            "ignore": false
+        }
+    }
+}

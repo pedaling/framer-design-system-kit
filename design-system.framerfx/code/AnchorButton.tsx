@@ -3,26 +3,22 @@ import * as System from "@class101/ui"
 import { ControlType, PropertyControls, addPropertyControls } from "framer"
 import { withHOC } from "./withHOC"
 
-const InnerButton = props => {
-    return <System.Button {...props}></System.Button>
+const InnerAnchorButton = props => {
+    return <System.AnchorButton {...props}></System.AnchorButton>
 }
 
-export const Button = withHOC(InnerButton)
+export const AnchorButton = withHOC(InnerAnchorButton)
 
-Button.defaultProps = {
+AnchorButton.defaultProps = {
     width: 150,
     height: 50,
 }
 
-addPropertyControls(Button, {
+addPropertyControls(AnchorButton, {
     fill: {
         title: "Fill",
         type: ControlType.Boolean,
         defaultValue: false,
-    },
-    type: {
-        title: "Type",
-        type: ControlType.String,
     },
     loading: {
         title: "Loading",
@@ -33,11 +29,6 @@ addPropertyControls(Button, {
         title: "To",
         type: ControlType.String,
     },
-    href: {
-        title: "Href",
-        type: ControlType.String,
-        defaultValue: "https://framer.com",
-    },
     children: {
         title: "Children",
         type: ControlType.String,
@@ -46,10 +37,6 @@ addPropertyControls(Button, {
         title: "Disabled",
         type: ControlType.Boolean,
         defaultValue: false,
-    },
-    target: {
-        title: "Target",
-        type: ControlType.String,
     },
     external: {
         title: "External",

@@ -11,6 +11,7 @@
 	},
 	"version": "1.0.0",
 	"dependencies": {
+		"@class101/ui": "^8.5.0",
 		"styled-components": "^4.2.0"
 	},
 	"name": "@framer/ik7jp3i1.class101ui",

@@ -3,15 +3,15 @@ import * as System from "@class101/ui"
 import { ControlType, PropertyControls, addPropertyControls } from "framer"
 import { withHOC } from "./withHOC"
 
-const InnerInput = props => {
-    return <System.Input {...props}></System.Input>
+const InnerToaster = props => {
+    return <System.Toaster {...props}></System.Toaster>
 }
 
-export const Input = withHOC(InnerInput)
+export const Toaster = withHOC(InnerToaster)
 
-Input.defaultProps = {
+Toaster.defaultProps = {
     width: 150,
     height: 50,
 }
 
-addPropertyControls(Input, {})
+addPropertyControls(Toaster, {})

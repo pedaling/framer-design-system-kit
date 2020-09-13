@@ -3,22 +3,22 @@ import * as System from "@class101/ui"
 import { ControlType, PropertyControls, addPropertyControls } from "framer"
 import { withHOC } from "./withHOC"
 
-const InnerButton = props => {
-    return <System.Button {...props}></System.Button>
+const InnerIconButton = props => {
+    return <System.IconButton {...props}></System.IconButton>
 }
 
-export const Button = withHOC(InnerButton)
+export const IconButton = withHOC(InnerIconButton)
 
-Button.defaultProps = {
+IconButton.defaultProps = {
     width: 150,
     height: 50,
 }
 
-addPropertyControls(Button, {
-    fill: {
-        title: "Fill",
-        type: ControlType.Boolean,
-        defaultValue: false,
+addPropertyControls(IconButton, {
+    fillColor: {
+        title: "Fill color",
+        type: ControlType.Color,
+        defaultValue: "#09F",
     },
     type: {
         title: "Type",
