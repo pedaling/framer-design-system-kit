@@ -21,4 +21,4 @@ jobs:
         env:
           FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
         with:
-          args: publish design-system.framerfx --yes
+          args: publish design-system.framerfx --yes --team=8d87f0cc-f398-3fc9-bdea-2daa0b0106ce
